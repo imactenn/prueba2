@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "Corrida",
+        "descricao": "Jogos focados em velocidade e competicao."
+    },
+    {
+        "nome": "Drift",
+        "descricao": "Jogos focados em derrapagens e manobras."
+    },
+    {
+        "nome": "Simulacao",
+        "descricao": "Jogos que procuram reproduzir a experiencia de dirigir."
+    }
+]

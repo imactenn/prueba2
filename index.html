@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos de Carros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>JOGOS DE CARROS</h1>
+        <p>Encontre jogos de corrida e descubra mais sobre eles</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bem-vindo!</h2>
+            <p>Pesquise jogos de corrida, veja algumas informações e cadastre os jogos que deseja conhecer.</p>
+        </section>
+
+        <section>
+            <h2>Categorias</h2>
+            <div id="listaCategorias"></div>
+        </section>
+
+        <section>
+            <h2>Pesquisar jogos</h2>
+            <p>Digite o nome de um jogo de corrida para procurar informações.</p>
+
+            <form id="formularioPesquisa">
+                <input type="text" id="pesquisa" placeholder="Ex: Forza Horizon" required>
+                <button type="submit">Pesquisar</button>
+            </form>
+
+            <p id="mensagemPesquisa"></p>
+            <div id="resultados"></div>
+            <p class="fonte">Dados dos jogos fornecidos por <a href="https://rawg.io/" target="_blank">RAWG</a>.</p>
+        </section>
+
+        <section>
+            <h2>Cadastrar um jogo</h2>
+            <p>Adicione à sua lista um jogo que você deseja conhecer.</p>
+
+            <form id="formularioJogo">
+                <label for="nomeJogo">Nome do jogo:</label>
+                <input type="text" id="nomeJogo" placeholder="Ex: Need for Speed" required>
+
+                <label for="categoriaJogo">Categoria:</label>
+                <input type="text" id="categoriaJogo" placeholder="Ex: Corrida" required>
+
+                <button type="submit">Cadastrar jogo</button>
+            </form>
+
+            <p id="mensagemCadastro"></p>
+            <h3>Minha lista de jogos</h3>
+            <ul id="listaJogos"></ul>
+        </section>
+    </main>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

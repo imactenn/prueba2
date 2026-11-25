@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #eeeeee;
+    color: #222222;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 5px solid #e63946;
+}
+
+main {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+section {
+    background-color: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #c62836;
+}
+
+article {
+    background-color: #f7f7f7;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+}
+
+article img {
+    width: 100%;
+    max-width: 260px;
+    display: block;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c62836;
+}
+
+label {
+    font-weight: bold;
+}
+
+.fonte {
+    font-size: 13px;
+    margin-top: 18px;
+}
+
+.erro {
+    color: #b91c1c;
+    background-color: #fee2e2;
+    padding: 10px;
+}
+
+.sucesso {
+    color: #166534;
+    background-color: #dcfce7;
+    padding: 10px;
+}

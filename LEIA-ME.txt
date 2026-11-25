@@ -1,0 +1,19 @@
+PROJETO JOGOS DE CARROS
+
+1. Abra o arquivo config.js.
+2. Substitua COLOQUE_SUA_CHAVE_AQUI pela sua chave da RAWG, mantendo as aspas.
+3. Abra a pasta no VS Code.
+4. Execute o index.html usando Live Server (nao abra o arquivo diretamente).
+5. Pesquise um jogo de corrida pelo nome.
+
+ARQUIVOS:
+- index.html: estrutura da pagina.
+- styles.css: aparencia da pagina.
+- script.js: interacoes, leitura do JSON e consulta da API.
+- categorias.json: categorias exibidas na pagina.
+- config.js: chave de acesso da RAWG.
+
+OBSERVACAO:
+A lista cadastrada manualmente fica na pagina enquanto ela estiver aberta. Ela ainda nao e salva depois que a pagina e fechada.
+
+A API RAWG exige uma chave em cada requisicao. Para um trabalho local, a chave fica no config.js. Nao publique esse arquivo com sua chave em um repositorio publico.
